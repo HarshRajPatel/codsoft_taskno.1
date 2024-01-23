@@ -1,0 +1,544 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.home-screen{
+    height: 600px;
+    width: 100%;
+}
+body{
+    background-color: #2f2f1e;
+}
+ul{
+    margin-left: 1000px;
+}
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 20%;
+}
+.nav-logo{
+    width:160px;
+    object-fit: contain;
+    filter: drop-shadow(0px 0px 50px white); 
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+.language-dropdown{
+    font-size:20px;
+    height: 80px;
+    width: 100px;
+
+}
+#list{
+    height: 30px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 2px ;
+    padding-left: 13px;
+}
+
+.buttons{
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+#kibble{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    margin-left: 200px;
+    font-size: 70px;
+}
+#subTitle{
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+#subTitle-1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+input{
+    width: 250px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 500px;
+    text-decoration-color: white;
+    color: white;
+    background-color: transparent;
+    box-shadow: 0px 0px 3px 2px;
+
+}
+input::placeholder{
+    color: white;
+}
+#get-started-button{
+    width: 130px;
+    margin-left: 15px;
+    padding: 20px;
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+
+section{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+}
+.register{
+    height: 180px;
+    justify-content: center;
+}
+#tv-image{
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+#tv-image:hover{
+    height: 270px;
+   transition: 0.5s;
+}
+.sec-1-parent-1{
+    height: 250px;
+    width: 600px;
+    color: white;
+    margin-left: 100px;
+    text-align: center;
+
+}
+.sec-title{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.sec-para{
+    margin-top: 50px; 
+     font-size: 30px; 
+}
+#mobile2-image{
+    height: 250px;
+    width: 430px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+#mobile2-image:hover{
+    height: 270px;
+    width: 450px;
+   transition: 0.5s;
+}
+#mobile1-image{
+    height: 200px;
+    margin-left: 50px;
+    margin-right: -120px;
+    margin-top: 80px;
+}
+#mobile1-image:hover{
+    height: 220px;
+    transition: 0.5s;
+}
+#tv-image2{
+    height: 250px;
+    margin-top: 50px;
+}
+#tv-image2:hover{
+    height: 270px;
+    transition: 0.5s;
+}
+#childern-image{
+    height: 230px;
+    margin: 30px;
+    margin-right: -50px;
+}
+#childern-image:hover{
+    height: 250px;
+    margin: 30px;
+    margin-right: -50px;
+}
+.faq-section{
+    height: 800px;
+    width: 100%;
+    display: block;
+}
+.faq-title{
+    height: 100px;
+    width: 900px;
+    font-size: 30px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.faq-div{
+    height: 100px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.question{
+    height: 120px;
+    width: 100%;
+    background-color: gray;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.answer{
+    height: 70px;
+    width: 80%;
+    background-color: wheat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid;
+}
+.register-paragraph{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.email{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    margin:5px;
+    background-color: red;
+    height:40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width:150px;
+    color:white;
+    font-size:25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    #kibble{
+        color: red;
+        margin-left: 50px;
+        font-size: 60px;
+    }
+    ul{
+        margin-left: 300px;
+    }
+    .buttons{
+        height: 30px;
+        width: 70px;
+        font-size: 13px;
+        padding: 5px;
+    }
+    #subTitle{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    #subTitle-1{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+    input{
+        width: 200px;
+        margin-left: 100px;
+        color: white;
+        padding: 10px;
+    }
+    #get-started-button{
+        padding: 10px;
+    }
+    section{
+        height: 300px;
+        
+    }
+    .section-1{
+        display: flex;
+    }
+    .sec-title{
+        margin-top: 40px;
+        font-size: 25px;
+        flex-wrap: wrap;
+        margin-left: -70px;
+    }
+    .sec-para{
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: -70px;
+    }
+    #tv-image{
+        height: 150px;
+        margin-top: 90px;
+        margin-left: -30px;
+    }
+    #tv-image:hover{
+        height: 160px;
+
+    }
+    #mobile2-image{
+        height: 150px;
+        margin-left: -5px;
+    }
+    #mobile2-image:hover{
+        height: 160px;
+    }
+    #mobile1-image{
+        height: 150px;
+        margin-left: 50px;
+        margin-right: -120px;
+        margin-top: -10px;
+    }
+    #mobile1-image:hover{
+        height: 160px;
+        transition: 0.5s;
+    }
+    #tv-image2{
+        height: 150px;
+        margin-top: 150px;
+        margin-left: -50px;
+    }
+    #tv-image2:hover{
+        height: 160px;
+    }
+    #childern-image{
+        width: 170px;
+        margin: 10px;
+    }
+    #childern-image:hover{
+        width: 180px;
+        margin: 10px;
+    }
+    .faq-title{
+        font-size: 17px;
+        color: white;
+        padding-top: 30px;
+        margin-left: -250px;  
+    }
+    .question{
+        height: 100px;
+        width: 450px;
+        font-size: 11px; 
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    #kibble{
+        margin-left: 70px;
+        font-size: 65px;
+    }
+    ul{
+        margin-left: 400px;
+    }
+    .buttons{
+        height: 33px;
+        width: 70px;
+        font-size: 13px;
+        padding: 5px;
+    }
+    #subTitle{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    #subTitle-1{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 27px;
+    }
+    input{
+        height: 50px;
+        width: 300px;
+        margin-left: 120px;
+        color: white;
+        padding: 10px;
+    }
+    #get-started-button{
+        padding: 10px;
+        height: 50px;
+    }
+    .section-1{
+        display: flex;
+    }
+    .sec-title{
+        margin-top: 50px;
+        font-size: 30px;
+        flex-wrap: wrap;
+        margin-left: -70px;
+    }
+    .sec-para{
+        margin-top: 20px;
+        font-size: 25px;
+        margin-left: -70px;
+    }
+    #tv-image{
+        height: 170px;
+        margin-top: 90px;
+        margin-left: -30px;
+    }
+    #tv-image:hover{
+        height: 190px;
+
+    }
+    #mobile2-image{
+        height: 170px;
+        margin-left: -5px;
+    }
+    #mobile2-image:hover{
+        height: 180px;
+    }
+    #mobile1-image{
+        height: 150px;
+        margin-left: 50px;
+        margin-right: -120px;
+        margin-top: -10px;
+    }
+    #mobile1-image:hover{
+        height: 160px;
+        transition: 0.5s;
+    }
+    #tv-image2{
+        height: 170px;
+        margin-top: 150px;
+        margin-left: -50px;
+    }
+    #tv-image2:hover{
+        height: 180px;
+    }
+    #childern-image{
+        width: 250px;
+        margin: 10px;
+    }
+    #childern-image:hover{
+        width: 260px;
+        margin: 10px;
+    }
+    .faq-title{
+        font-size: 25px;
+        color: white;
+        padding-top: 10px;
+        margin-left: -70px;  
+    }
+    .question{
+        height: 100px;
+        width: 650px;
+        font-size: 13px;   
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    #kibble{
+        margin-left: 100px;
+        font-size: 70px;
+    }
+    ul{
+        margin-left: 600px;
+    }
+    .buttons{
+        height: 35px;
+        width: 72px;
+        font-size: 13px;
+    }
+    #subTitle{
+        margin-top: 100px;
+        font-size: 35px;
+    }
+    #subTitle-1{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 27px;
+    }
+    input{
+        height: 55px;
+        width: 350px;
+        margin-left: 200px;
+    }
+    #get-started-button{
+        height: 55px;
+    }
+    .sec-title{
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    .sec-para{
+        margin-top: 20px;
+        font-size: 25px;
+        margin-left: -40px;
+    }
+    #tv-image{
+        height: 200px;
+        margin-top: 90px;
+        margin-left: -30px;
+    }
+    #tv-image:hover{
+        height: 210px;
+        transition: 0.5s;
+    }
+    #mobile2-image{
+        height: 190px;
+        margin-left: -5px;
+    }
+    #mobile2-image:hover{
+        height: 200px;
+        transition: 0.5s;
+    }
+    #mobile1-image{
+        height: 160px;
+        margin-left: 50px;
+        margin-right: -120px;
+        margin-top: -10px;
+    }
+    #mobile1-image:hover{
+        height: 170px;
+        transition: 0.5s;
+    }
+    #tv-image2{
+        height: 190px;
+        margin-top: 150px;
+        margin-left: -50px;
+    }
+    #tv-image2:hover{
+        height: 200px;
+        transition: 0.5s;
+    }
+    #childern-image{
+        width: 300px;
+        margin-top: 30px;
+    }
+    #childern-image:hover{
+        width: 310px;
+        margin: 10px;
+    }
+    .faq-title{
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        margin-left: -40px;  
+    }
+    .question{
+        height: 100px;
+        width: 800px;
+        font-size: 14px;  
+        margin-left: 20px; 
+    }
+}
+
+
+
