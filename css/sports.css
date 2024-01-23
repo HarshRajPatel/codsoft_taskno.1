@@ -1,0 +1,280 @@
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #404040;
+    height: 80px;
+    display: flex;
+    width: 100%;
+
+
+
+}
+
+.navmenu {
+    height: 33px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.brandname {
+    font-size: 50px;
+    color: red;
+    margin-left: 40px;
+    position: relative;
+    bottom: 13px;
+}
+
+.searchbar {
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    left: 700px;
+    top: 18px;
+    box-shadow: 0 0 2px 2px whitesmoke;
+    font-size: 20px;
+
+}
+
+.navsearch {
+    height: 30px;
+    position: relative;
+    left: 710px;
+    top: 21px;
+    cursor: pointer;
+}
+
+.heading {
+    color: white;
+    font-size: 78px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+
+.headingpara {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.description {
+    display: flex;
+
+}
+
+.desimg {
+    height: 450px;
+    width: 890px;
+    position: relative;
+    left: 110px;
+
+}
+
+.criket {}
+
+.cardgroup {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.headcric {
+    color: white;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 220px;
+
+
+
+
+}
+
+.headcric:hover {
+    box-shadow: 0 0 2px 2px white;
+    transform: scale(1.12);
+}
+
+.criccard {}
+
+.criccard:hover {
+    transform: scale(1.13);
+}
+
+.criccardimg {
+    height: 200px;
+    width: 300px;
+    box-shadow: 0 0 2px 2px gray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.criccarddes {
+    color: white;
+    margin-top: 3px;
+    margin-left: 50px;
+}
+
+.divthank {
+    height: 300px;
+    width: 100%;
+    background-color: ;
+}
+
+.thank {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.lowerhome {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+
+}
+
+.nav-logo {
+    width: 160px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 23px;
+    justify-content: space-evenly;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.linkFooter {
+    list-style: none;
+    font-size: 15px;
+}
+
+.imageSocial {
+    height: 20px;
+    width: 20px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 20px;
+    color: gray;
+    font-size: 20px;
+}
+
+.footerHead {
+    font-size: 20px;
+    color: red;
+}
+
+
+
+
+@media (max-width:600px) {
+    .searchbar {
+        height: 25px;
+        width: 120px;
+        border-radius: 20px;
+        position: relative;
+        left: 80px;
+        top: 18px;
+        box-shadow: 0 0 2px 2px whitesmoke;
+        font-size: 15px;
+    }
+
+    .navsearch {
+        height: 30px;
+        position: relative;
+        left: 90px;
+        top: 21px;
+        cursor: pointer;
+    }
+
+    .heading {
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 20px;
+        margin-top: 70px;
+    }
+
+    .headingpara {
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .desimg {
+        height: 200px;
+        width: 250px;
+        position: relative;
+        left: 30px;
+        top: 100px;
+
+    }
+}
+
+@media (min-width:601px) and (max-width:1275px) {
+
+    .searchbar {
+        height: 25px;
+        width: 200px;
+        border-radius: 20px;
+        position: relative;
+        left: 150px;
+        top: 18px;
+        box-shadow: 0 0 2px 2px whitesmoke;
+        font-size: 15px;
+    }
+
+    .navsearch {
+        height: 30px;
+        position: relative;
+        left: 155px;
+        top: 21px;
+        cursor: pointer;
+    }
+
+    .desimg {
+        height: 320px;
+        width: 550px;
+        position: relative;
+        left: 30px;
+        top: 10px;
+    }
+
+    .criccardimg {
+        height: 180px;
+        width: 250px;
+        box-shadow: 0 0 2px 2px gray;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+}
